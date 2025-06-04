@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+}
+@model UniTech.ViewsModels.LoginViewModel
+
+<h2 class="center">Welcome Back, LogIn</h2>
+
+
+<form asp-action="Login" asp-controller="Account" asp-anti-forgery="true">
+    <div class="validation" asp-validation-summary="ModelOnly"></div>
+    <div>
+        <div>
+            <label asp-for="Username">Enter Username</label><br />
+            <input type="text" asp-for="Username" />
+            <span asp-validation-for="Username" />
+        </div>
+        <div>
+            <label asp-for="Password">Enter password</label><br />
+            <input asp-for="Password" />
+            <span asp-validation-for="Password" />
+        </div>
+        <div class="form-actions">
+            <input type="submit" value="LogIn" class="btn btn-primary" />
+            <a asp-area="" asp-controller="Account" asp-action="Register" class="btn btn-secondary">Dont have account yet</a>
+        </div>
+    </div>
+</form>

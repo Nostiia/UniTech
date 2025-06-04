@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+@model UniTech.ViewsModels.PostViewModel
+
+<h2 class="center">Create</h2>
+
+<h4 class="center">Post</h4>
+<hr />
+<div class="center">
+    <div>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Topic" class="control-label"></label>
+                <input asp-for="Topic" class="form-control" />
+                <span asp-validation-for="Topic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Search_hucks" class="control-label"></label>
+                <input asp-for="Search_hucks" class="form-control" />
+                <span asp-validation-for="Search_hucks" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Post_text"></label>
+                <textarea asp-for="Post_text" class="form-control autosize-textarea"></textarea>
+                <span asp-validation-for="Post_text" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Post" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-area="" asp-controller="Account" asp-action="Profile" class="btn btn-secondary">Back to Profile</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

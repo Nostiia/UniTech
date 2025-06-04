@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - UniTech</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/UniTech.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>        
+        <nav class="navbar navbar-expand-sm navbar-dark custom-navbar">
+            <div class="container-fluid justify-content-between">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">UniTech</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav nav-left me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link custom-nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Rules" ? "active" : "")"
+                               asp-controller="Home" asp-action="Rules">Rules</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link custom-nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Posts" ? "active" : "")"
+                               asp-controller="Posts" asp-action="Index">Posts</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto d-flex flex-row align-items-center gap-3">
+                        @if (User.Identity?.IsAuthenticated ?? false)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Profile" ? "active" : "")"
+                                   asp-controller="Account" asp-action="Profile">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline m-0 p-0 border-0 bg-transparent">
+                                    <button type="submit" class="nav-link btn btn-link custom-nav-link p-0 m-0" style="text-decoration: none; border: none; background: transparent;">Logout</button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Login" ? "active" : "")"
+                                   asp-controller="Account" asp-action="Login">Login</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - UniTech - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿@model UniTech.Models.User
+
+@{
+    ViewData["Title"] = "ProfileView";
+    var bgColors = new[] { "#f8f9fa", "#e9ecef", "#dee2e6", "#ced4da" }; // rotating background colors
+    int colorIndex = 0;
+}
+
+<div class="profile-container">
+    <h2 class="center">Profile</h2>
+
+    <div class="profile-info shadow p-4 rounded bg-light mb-4">
+        <h5><strong>Username:</strong> @Model.Username</h5>
+        <h5><strong>Email:</strong> @Model.Email</h5>
+        <h5><strong>Role:</strong> @Model.Role.Trim()</h5>
+    </div>
+
+    @if (Model.Role.Trim() == "teacher")
+    {
+        <h3 class="center">Your Posts</h3>
+
+        @if (Model.Posts.Any())
+        {
+            <div class="posts-grid">
+                @foreach (var post in Model.Posts)
+                {
+                    var bg = bgColors[colorIndex % bgColors.Length];
+                    colorIndex++;
+
+                    <div class="post-container" style="background-color:@bg">
+                        <div class="post-topic">@post.Topic</div>
+
+                        <div>
+                            @foreach (var tag in post.Search_hucks.Split(" ", StringSplitOptions.RemoveEmptyEntries))
+                            {
+                                <span class="search-tag">@tag</span>
+                            }
+                        </div>
+
+                        <div class="post-text">@post.Post_text</div>
+                    </div>
+                }
+            </div>
+        }
+
+        else
+        {
+            <p>No posts yet.</p>
+        }
+    }
+</div>

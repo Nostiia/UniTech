@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="home-background">
+    <div class="content-wrapper">
+        <!-- Section 1: Posts -->
+        <div class="section">
+            <img src="/photos/knowledge.jpeg" alt="Posts Page Preview" />
+            <div class="section-content">
+                <h3>Explore Educational Posts</h3>
+                <p>
+                    Dive into a collection of posts created by teachers. Posts are tagged with helpful search keywords, and you can easily find what you're looking for.
+                </p>
+                <div class="btn-section">
+                    <a class="btn btn-primary" asp-controller="Posts" asp-action="Index">Go to Posts</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: Rules -->
+        <div class="section reverse">
+            <img src="/photos/rules.jpg" alt="Rules Preview" />
+            <div class="section-content">
+                <h3>Understand the Rules</h3>
+                <p>
+                    Learn how to properly use the platform, including rules for creating posts, using tags, and navigating through profiles. Following the rules keeps content clean and useful.
+                </p>
+                <div class="btn-section">
+                    <a class="btn btn-secondary" asp-controller="Home" asp-action="Rules">Read the Rules</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Account -->
+        <div class="section">
+            <img src="/photos/account.png" alt="Register Preview" />
+            <div class="section-content">
+                <h3>Create an Account</h3>
+                <p>
+                    Register as a <strong>Teacher</strong> or <strong>Student</strong>. Teachers can create and manage posts, while students can explore and learn from the content.
+                </p>
+                <div class="btn-section">
+                    <a class="btn btn-success" asp-controller="Account" asp-action="Register">Create Account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

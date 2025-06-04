@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Posts";
+    var bgColors = new[] { "#f8f9fa", "#e9ecef", "#dee2e6", "#ced4da" };
+    int colorIndex = 0;
+}
+@model List<UniTech.Models.Post>
+
+<div>
+    <h2 class="center">Posts</h2>
+</div>
+
+<form method="get" asp-action="Index">
+    <div>
+        <div>
+            <label for="filter">Search:</label>
+            <input type="text" name="filter" id="filter" value="@(Context.Request.Query["filter"])" />
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <button type="submit" class="btn btn-primary">Search</button>
+            <a asp-area="" asp-controller="Posts" asp-action="Index" class="btn btn-secondary">Return to All</a>
+        </div>
+    </div>
+</form>
+
+@if (Model.Any())
+{
+    <div class="posts-grid">
+        @foreach (var post in Model)
+        {
+            var bg = bgColors[colorIndex % bgColors.Length];
+            colorIndex++;
+            <div class="post-container" style="background-color:@bg">
+                <div class="post-topic">@post.Topic</div>
+                <div>
+                    @foreach (var tag in post.Search_hucks.Split(" ", StringSplitOptions.RemoveEmptyEntries))
+                    {
+                        <span class="search-tag">@tag</span>
+                    }
+                </div>
+                <div class="post-text">@post.Post_text</div>
+                <div class="text-muted mt-2">
+                    <span class="teacher">
+                        Posted by:
+                        <a asp-controller="Account" asp-action="ProfileView" asp-route-id="@post.TeacherId" style="color: inherit; text-decoration: none;">
+                            @post.Teacher.Username
+                        </a>
+                    </span>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No posts yet.</p>
+}

@@ -1,0 +1,403 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\views\\posts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:views\\posts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\views\\home\\rules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:views\\home\\rules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\views\\account\\profileview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:views\\account\\profileview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\views\\posts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:views\\posts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:models\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\models\\postcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:models\\postcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\viewsmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:viewsmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\viewsmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:viewsmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|c:\\users\\golub\\documents\\unitech\\unitech\\unitech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F651404-D0C4-4B56-93E0-797CD5E608A7}|UniTech.csproj|solutionrelative:unitech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAAwBsBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-28T14:27:06.584Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T07:39:58.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T12:42:07.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProfileView.cshtml",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Account\\ProfileView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ProfileView.cshtml",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Account\\ProfileView.cshtml",
+              "RelativeToolTip": "Views\\Account\\ProfileView.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T09:31:25.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Posts\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Posts\\Create.cshtml",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Posts\\Create.cshtml",
+              "RelativeToolTip": "Views\\Posts\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T17:18:30.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Posts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Posts\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Posts\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Posts\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T17:10:37.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Account\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Account\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Account\\Edit.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T16:17:14.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PostContext.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Models\\PostContext.cs",
+              "RelativeDocumentMoniker": "Models\\PostContext.cs",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Models\\PostContext.cs",
+              "RelativeToolTip": "Models\\PostContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:26:45.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Models\\Post.cs",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Models\\Post.cs",
+              "RelativeToolTip": "Models\\Post.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:25:47.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Rules.cshtml",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Home\\Rules.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Rules.cshtml",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Home\\Rules.cshtml",
+              "RelativeToolTip": "Views\\Home\\Rules.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T18:22:36.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\ViewsModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewsModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\ViewsModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewsModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:32:41.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T09:16:44.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\ViewsModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewsModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\ViewsModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewsModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T09:27:18.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UniTech.csproj",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\UniTech.csproj",
+              "RelativeDocumentMoniker": "UniTech.csproj",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\UniTech.csproj",
+              "RelativeToolTip": "UniTech.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-29T09:26:19.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Models\\UserContext.cs",
+              "RelativeDocumentMoniker": "Models\\UserContext.cs",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Models\\UserContext.cs",
+              "RelativeToolTip": "Models\\UserContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:27:32.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:12:53.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:47:43.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Posts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Posts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Posts\\Index.cshtml",
+              "RelativeToolTip": "Views\\Posts\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T12:38:46.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "Controllers\\PostsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:38:13.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T09:56:44.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T09:55:24.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAkwK4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:49:20.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\golub\\Documents\\UniTech\\UniTech\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T16:19:21.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
